@@ -24,6 +24,6 @@ class HierarchyFormServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->bind('hierarchyForm', 'SmallBiz\HierarchyForm');
+        $this->app->bind('hierarchyForm', 'Dakine\HierarchyForm\HierarchyForm');
     }
 }
