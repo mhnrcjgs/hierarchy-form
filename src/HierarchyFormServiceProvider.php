@@ -1,6 +1,6 @@
 <?php
 
-namespace Dakine\HierarchySelect;
+namespace Dakine\HierarchyForm;
 
 use Illuminate\Support\ServiceProvider;
 
