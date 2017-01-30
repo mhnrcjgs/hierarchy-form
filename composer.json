@@ -1,0 +1,21 @@
+{
+    "name": "dakine/hierarchy-form",
+    "description": "Hierarchy Form (select)",
+    "license": "MIT",
+    "keywords": ["laravel", "select", "hierarchy"],
+    "authors": [
+        {
+            "name": "dakine",
+            "email": "mhnrcjgs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "4.*|5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dakine\\HierarchyForm\\": "src/"
+        }
+    }
+}
