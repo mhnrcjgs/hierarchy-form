@@ -27,7 +27,7 @@ class HierarchyForm
 
         Log::debug('OPTIONS : '.json_encode($options));
 
-        $html = [];
+        $html = ['<option value="" ></option>'];
 
         foreach ($list as $item) {
             $html[] = $this->option($item['name'], $item['id'], $selected, $item['depth']);
